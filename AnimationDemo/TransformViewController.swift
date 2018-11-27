@@ -33,8 +33,6 @@ class TransformViewController: UIViewController {
 	
 	override func viewDidLayoutSubviews() {
 		super.viewDidLayoutSubviews()
-		
-		state = (state)
 	}
 	
 	func setState(_ state: State, animated: Bool) {
